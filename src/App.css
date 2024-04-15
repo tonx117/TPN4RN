@@ -37,10 +37,25 @@
   background-color: yellow;
   border-radius: 5px;
   font-family: "Star Wars", sans-serif;
+  width: 100px;
+  height: 30px;
 }
 
 canvas {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Ajusta esta altura según sea necesario */
+  margin-top: 20px; /* Ajusta este margen superior según sea necesario */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
